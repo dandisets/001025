@@ -7,9 +7,21 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 6775337316
+  numberOfFiles: 12
+  numberOfSubjects: 12
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10029
+    name: Cricetulus griseus - Cricetulus aureus
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: Silkuniene, Giedre; Gudvangen, Emily; Mangalanathan, Uma; Semenov, Iurii;
   Pakhomov, Andrei (2024) The impact of voltage on CANCAN focusing of electroporation
   using four-electrode arrays of varying sizes (Version draft) [Data set]. DANDI archive.
@@ -52,6 +64,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-05-15T20:33:08.663366+00:00'
+datePublished: '2024-06-05T18:26:43.401312+00:00'
 description: The study examines the effect of pulse voltage on CANCAN focusing of
   electroporation using electrode arrays of different sizes. Adjustments in the amplitude
   of nanosecond electroporation pulses influenced the intensity of electroporation
@@ -68,6 +81,18 @@ manifestLocation:
 name: The impact of voltage on CANCAN focusing of electroporation using four-electrode
   arrays of varying sizes
 protocol: []
+publishedBy:
+  endDate: '2024-06-05T18:26:43.401312+00:00'
+  id: urn:uuid:1356c1de-6e1c-4328-8eb3-0e266982f693
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-06-05T18:26:43.401312+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:8e6f895c-1a80-49e3-a611-e3dbd90941e6
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.1016/j.bioelechem.2023.108437
   name: Next generation CANCAN focusing for remote stimulation by nanosecond electric
